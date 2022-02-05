@@ -2,11 +2,11 @@ package com.squeezer.designpatterns.observer;
 
 public class ConcreteSubject extends Subject {
 
-    private int mValue = 0;
+    private int mValue;
 
     public void setValue(int value) {
         mValue = value;
-        notifyObservers();
+        notifyObservers(mValue);
     }
 
     public int getValue() {

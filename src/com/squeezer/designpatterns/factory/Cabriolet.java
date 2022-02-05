@@ -4,7 +4,7 @@ public class Cabriolet extends Car {
 
     protected Cabriolet() {
         color = "RED";
-        vitesseMax = "280km/h";
+        speedMax = "280km/h";
     }
 
     @Override
@@ -16,7 +16,7 @@ public class Cabriolet extends Car {
     @Override
     public String getMaxSpeed() {
 
-        return vitesseMax;
+        return speedMax;
     }
 
 }

@@ -3,7 +3,7 @@ package com.squeezer.designpatterns.factory;
 public abstract class Car {
 
     protected String color;
-    protected String vitesseMax;
+    protected String speedMax;
 
     public abstract String getType();
 
